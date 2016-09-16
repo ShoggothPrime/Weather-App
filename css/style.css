@@ -1,0 +1,98 @@
+body {
+  margin-top: 30px;
+  text-align: center;
+  line-height: 200px;
+  font-family: 'Montserrat', sans-serif;
+  color: #424b59;
+}
+.common {
+  position: relative;
+  padding: 0;
+  height: 900px;
+  width: 900px;
+  border-radius: 50%;
+}
+#temp, #location, .celsius, .fahrenheit, .active {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  position: absolute;
+}
+#temp {
+  background: #C9B79C;
+  height: 900px;
+  width: 900px;
+  border-radius: 50%;
+  font-size: 50px;
+  border: 15px solid #F1E0C5;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+#location {
+  background: #71816D;
+  height: 700px;
+  width: 700px;
+  border-radius: 50%;
+  left: 100px;
+  top: 200px;
+  font-size: 30px;
+  border: 15px solid #8ea289;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+.celsius, .fahrenheit, .active {
+  height: 500px;
+  width: 250px;
+  top: 400px;
+  font-size: 80px;
+  line-height: 300px;
+  cursor: pointer;
+}
+
+.celsius {
+  border-radius: 500px 0 0 500px;
+  background: #96939B;
+  left: 200px;
+  border: 15px solid #a5a2ab;
+  color: #72747e;
+}
+.fahrenheit {
+  border-radius: 0 500px 500px 0;
+  background: #96939B;
+  right: 200px;
+  border: 15px solid #a5a2ab;
+  color: #72747e;
+}
+#weather {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  position: absolute;
+  background: #c5c9c1;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  left: 325px;
+  top: 650px;
+  font-size: 20px;
+  border: 15px solid #F1F7ED;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+.active {
+  background: #C8E087;
+  border: 15px solid #e4ff9a;
+  color: #424b59;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+img {
+  margin-top: 15px;
+  height: 175px;
+  width: 175px;
+}
+#city {
+  margin-left: 157px;
+  height: 150px;
+  width: 375px;
+}
